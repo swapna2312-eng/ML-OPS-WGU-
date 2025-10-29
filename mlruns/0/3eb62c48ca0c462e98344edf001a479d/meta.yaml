@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aneesh/mlops_takehome/mlruns/0/3eb62c48ca0c462e98344edf001a479d/artifacts
+end_time: 1761697403695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3eb62c48ca0c462e98344edf001a479d
+run_name: unequaled-roo-487
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761697402247
+status: 3
+tags: []
+user_id: aneesh

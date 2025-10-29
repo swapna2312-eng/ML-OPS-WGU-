@@ -1,0 +1,10 @@
+artifact_location: file:///Users/aneesh/mlops_takehome/mlruns/0/models/m-1954e1ef59d7498bbaca5bad0cf1bdd1/artifacts
+creation_timestamp: 1761697782016
+experiment_id: '0'
+last_updated_timestamp: 1761697783252
+model_id: m-1954e1ef59d7498bbaca5bad0cf1bdd1
+model_type: null
+name: model
+source_run_id: bbaa3ac8551b49e19ed4e2c3b7cfc9b4
+status: 2
+status_message: null

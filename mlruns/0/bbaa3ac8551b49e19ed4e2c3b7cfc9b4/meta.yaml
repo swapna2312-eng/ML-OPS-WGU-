@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aneesh/mlops_takehome/mlruns/0/bbaa3ac8551b49e19ed4e2c3b7cfc9b4/artifacts
+end_time: 1761697783264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bbaa3ac8551b49e19ed4e2c3b7cfc9b4
+run_name: legendary-cow-210
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761697781983
+status: 3
+tags: []
+user_id: aneesh

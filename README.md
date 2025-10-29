@@ -35,15 +35,16 @@ mlops_takehome/
 
 ## 🧩 Local Setup Instructions
 
-### 1️⃣ Clone Repository and Set Up Virtual Environment
+### Clone Repository and Set Up Virtual Environment
 ```bash
 git clone https://github.com/Anee-Ark/mlops_databricks_pipeline.git
 cd mlops_databricks_pipeline
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
-### 2️⃣ Configure Databricks Credentials
+### Configure Databricks Credentials
 Generate a **Personal Access Token** in Databricks → *User Settings → Developer → Access Tokens*  
 Then export your environment variables:
 
@@ -51,8 +52,8 @@ Then export your environment variables:
 export DATABRICKS_HOST="https://dbc-011d092b-b40f.cloud.databricks.com"
 export DATABRICKS_TOKEN="dapiXXXXXXXXXXXX"
 export ENV=dev
-
-### 3️⃣ Run the CLI Locally (Dev Deployment)
+```
+### Run the CLI Locally (Dev Deployment)
 
 Once your environment variables are set, you can deploy your notebooks and create Databricks Jobs locally for the **development environment** by running:
 
@@ -79,6 +80,7 @@ You should see:
 ```bash
 train_classification.py
 inference_batch.py
+```
 
 2. Navigate to Workflows → Jobs
 You should see two jobs created automatically:
@@ -87,7 +89,7 @@ mlops_dev_train
 
 mlops_dev_infer
 
-## 🚀 CI/CD Automation (GitHub Actions)
+### 🚀 CI/CD Automation (GitHub Actions)
 
 To enable continuous deployment to production, the project includes a fully automated **GitHub Actions workflow** that runs every time you push to the `main` branch.  
 This workflow deploys your notebooks and jobs to the **production** environment on Databricks.

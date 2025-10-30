@@ -20,22 +20,24 @@ It automates every stage of the machine-learning lifecycle — from model traini
 This repo uses separate notebooks for model training and batch inference, automated deployment of jobs and notebooks to Databricks, and CI/CD with GitHub Actions for real MLOps flow.
 
 mlops_takehome/
-│
 ├── notebooks/
-│   ├── train_classification.py   # Model training notebook – builds and logs runs to MLflow
+│   ├── train_classification.py   # Model training notebook – builds and logs ML runs to MLflow
 │   └── inference_batch.py        # Production/batch inference notebook – loads latest model, predicts on data
 │
 ├── src/cli/
 │   ├── config.py                 # Reads environment variables for Databricks connection (host, token)
-│   ├── workspace.py              # Uploads notebooks/scripts into the Databricks workspace
-│   ├── jobs.py                   # Sets up Databricks jobs (training, inference) directly from code
-│   └── main.py                   # CLI tool for managing pipeline operations locally
+│   ├── workspace.py              # Automates uploads of notebooks/scripts to Databricks workspace
+│   ├── jobs.py                   # Sets up Databricks jobs (training, inference) programmatically
+│   └── main.py                   # CLI interface for local workflow management and deployment
 │
-├── mlops_cli.py                  # The main CLI script that ties everything together for local deployment
+├── mlops_cli.py                  # Main CLI orchestrator that coordinates deployment and job management
 │
-├── requirements.txt              # All Python packages needed to run code
+├── requirements.txt              # Python dependency list
 │
-└── .github/workflows/deploy.yml  # GitHub Actions workflow for triggering automated deployment to Databricks
+└── .github/workflows/
+    └── deploy.yml                # GitHub Actions workflow for automatic deployment and CI/CD
+
+
 
 
 

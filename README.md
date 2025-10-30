@@ -243,8 +243,6 @@ Through this take-home, I reinforced my understanding of **MLOps orchestration**
 
 ### 👤 Author
 
-**Aneesh Koka**  
-AI Engineer & MLOps Practitioner  
-📧 Email: `koka.a@northeastern.edu`  
-🔗 GitHub: [Anee-Ark/mlops_databricks_pipeline](https://github.com/Anee-Ark/mlops_databricks_pipeline)
+**Swapna**  
+📧 Email: 'swapna.data2014@gmail.com'
 

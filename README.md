@@ -1,6 +1,6 @@
 # 🧠 mlops_databricks_pipeline
    
-### Author: **Aneesh Koka**
+### Author: **Swapna**
 
 ---
 
